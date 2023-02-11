@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="David Portfolio" />
+    <meta name="keywords" content="Assignment 1" />
+    <meta name="author" content="David Anggawijaya" />
+    <link href="css/desktop.css" rel="stylesheet" media="screen and (min-width:550px)">
+    <link href="css/mobile.css" rel="stylesheet" media="screen and (max-width:550px)">
+    <script src="Js/script.js" defer></script>
+    <title>David Portfolio</title>
+</head>
+<body>
+    <!-- navbar menu -->
+    <header>
+        <nav id="animation-nav" class="navbar">
+            <div class="container">
+                <a href="home.html" class="logo">My<span>Portfolio</span></a>
+                <ul class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="skill.html">Skills</a></li>
+                    <li><a href="animations.html">Animations</a></li>
+                    <li><a href="timeline.html">Timetable</a></li>
+                    <li><a href="home.html#contact-section">Contact</a></li>
+                </ul>
+                <div class="nav-btn"><img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png" alt="hamburger icon"/></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- home section -->
+        <section id="home-section">
+            <div class="container">
+                <div id="home-title">
+                    <h2 id="text-1">Hi, I'm</h2>
+                    <h1 id="text-2">David Anggawijaya</h1>
+                    <h3 id="text-3">A future<span class="typing-animation">Software developer</span></h3>
+                </div>
+                <div id="sub-title">
+                    <p>I’m currently studying at Swinburne University majoring in Bachelor of Information communication technology.</p>
+                </div>
+                
+                <a href="about.html" id="animation-btn" class="btn">About Me</a>
+            
+            </div>
+            
+            <img src="images/Group2.png" id="image" alt="My Picture">
+        </section>
+
+        <!-- contact section -->
+        <section id="contact-section">
+            <div class="container">
+                <h1 class="section-title">Contact <span>Me</span></h1>
+                <form action="http://mercury.swin.edu.au/it000000/cos10005/surveytest.php" method="POST">
+                    
+                    <input type="text" name="user_name" placeholder="Name">
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="comment"  cols="30" rows="10" placeholder="Comments..."></textarea>
+                    <input class="btn" type="submit">
+                </form>
+                
+                <div id="my-email">
+                    <h4><span>My</span> Email:</h4>
+                    <a href="mailto:user@gmail.com">user@gmail.com</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
